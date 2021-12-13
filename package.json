@@ -1,0 +1,25 @@
+{
+  "name": "@ddemaree/elvn",
+  "version": "0.1.0",
+  "description": "Fast, powerful static site generation with Eleventy & Vite",
+  "main": "src/index.js",
+  "repository": "https://github.com/ddemaree/elvn",
+  "author": "David Demaree (david@demaree.me)",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "elvn": "bin/elvn.js"
+  },
+  "files": [
+    "src/**/*",
+    "bin/**/*"
+  ],
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0-beta.8",
+    "cac": "^6.7.12",
+    "chalk": "^4.1.2",
+    "connect": "^3.7.0",
+    "sirv": "^1.0.19",
+    "vite": "^2.7.1"
+  }
+}
